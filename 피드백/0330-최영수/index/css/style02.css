@@ -1,0 +1,130 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #333;
+}
+body {
+    font: 16px Arial, "맑은 고딕", sans-serif;
+}
+
+#wrap {
+
+}
+header {
+
+}
+header .logo {
+    width: 100%;
+    max-width: 1280px;
+    height: 160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .logo > div {
+    width: 140px;
+    height: 140px;
+    background: #ccc;
+    margin: 0 auto;
+}
+
+/* header */
+header .menu {
+    background: #ccc;
+    height: 55px;
+}
+header .menu .mainmenu {
+    width: 100%;
+    max-width: 1280px;
+    height: 100%;
+    margin: 0 auto;
+}
+header .menu .mainmenu > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+header .menu .mainmenu > ul > li {
+    position: relative;
+    flex: 1 1 25%;
+}
+header .menu .mainmenu > ul > li .submenu {
+    position: absolute;
+    left: 0;
+    top: 55px;
+}
+header .menu .mainmenu > ul > li > a {
+    display: block;
+    width: 100%;
+    line-height: 55px;
+    text-align: center;
+}
+header .menu .mainmenu > ul > li:hover >a ,
+header .menu .mainmenu > ul > li > a:hover {
+    background: #bbb;
+}
+header .menu .mainmenu > ul > li .submenu li a {
+    display: block;
+    width: 100%;
+    line-height: 45px;
+    text-align: center;
+}
+.slide {
+    max-width: 1280px;
+    height: 500px;
+    margin: 0 auto;
+    background: #bbb;
+}
+/* slide */
+
+
+
+.event {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1280px;
+    /* width: 1280px; */
+    height: 300px;
+    margin: 10px auto 0;
+    /* background: #ccc; */
+}
+.event ul {
+    width: 1090px;
+    display: flex;
+    justify-content: space-between;
+}
+.event ul li:first-of-type {
+    margin-left: 10px;
+}
+.event ul li:last-of-type {
+    margin-right: 10px;
+}
+.event ul li h2 {
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+.event ul li a {
+    display: block;
+    width: 280px;
+    height: 240px;
+    background: #ddd;
+    border-radius: 10px;
+}
+/* event */
+
+
+
+.contents {
+    width: 1280px;
+    margin: 0 auto;
+}
+/* contents */
